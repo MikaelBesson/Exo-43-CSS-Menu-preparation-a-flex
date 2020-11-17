@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#head {
+    width: 100%;
+}
+
+div {
+    width: 100%;
+    position: fixed;
+    background-color: #acabab;
+    padding: 2em;
+}
+
+a {
+    padding: 2em;
+    font-size: medium;
+    text-decoration-color: red;
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    a {
+        padding: 0.5em;
+        display: none;
+    }
+
+    nav {
+        display: initial;
+        font-size: xx-large;
+    }
+    .deroul:hover a {
+        display: block;
+    }
+}
+
+
+
