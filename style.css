@@ -54,7 +54,27 @@ a {
     .deroul:hover a {
         display: block;
     }
+    i {
+        animation-name: rotate;
+        animation-duration:2s;
+    }
+    i:hover {
+        transform: rotate(90deg);
+        color: red
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
